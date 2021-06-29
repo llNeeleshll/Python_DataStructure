@@ -5,7 +5,7 @@ class Node:
         self.next = next
         self.prev = prev
 
-class LinkedList:
+class DoublyLinkedList:
 
     def __init__(self):
         self.head = None
@@ -117,7 +117,7 @@ class LinkedList:
 
         print(print_info)
 
-ll = LinkedList()
+ll = DoublyLinkedList()
 ll.insert_at_begining(5)
 ll.insert_at_begining(10)
 ll.insert_at_end(589)
